@@ -14,6 +14,7 @@ Procedures:
 5.2. Invert for Q with a small inversin problem, use non-negative least square (invertsameQpQsnnls.m)
 
 5.3. Invert for Qp/Qs with a small inversion problem, use SVD (invertsameQps3D1Dsvd_vard.m)
+
 6. (Optional) Calculate Qk based on Qp/Qs (calQk_Qps.m)
 7. Plot tomography results (plot*.bash calling atten4gmt.py and hits4gmt.py)
 8. Create a grid on nodes for checkerboard tests (creat_checker.m)
