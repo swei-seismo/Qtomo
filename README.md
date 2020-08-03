@@ -9,9 +9,9 @@ Procedures:
 4. (Optional) Plot ray tracing results (pl_raypath.m)
 5. Tomography inversion
 
-5.1. Invert for Q with a large inversin problem, use iterative LSQR (invertQp.m)
+5.1. Invert for Q with a large inversion problem, use iterative LSQR (invertQp.m)
 
-5.2. Invert for Q with a small inversin problem, use non-negative least square (invertsameQpQsnnls.m)
+5.2. Invert for Q with a small inversion problem, use non-negative least square (invertsameQpQsnnls.m)
 
 5.3. Invert for Qp/Qs with a small inversion problem, use SVD (invertsameQps3D1Dsvd_vard.m)
 
