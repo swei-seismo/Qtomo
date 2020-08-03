@@ -8,8 +8,11 @@ Procedures:
 3. Construct the G matrix (genGsameQpQs.bash calling tomosrc/Gatten3D1D)
 4. (Optional) Plot ray tracing results (pl_raypath.m)
 5. Tomography inversion
+
 5.1. Invert for Q with a large inversin problem, use iterative LSQR (invertQp.m)
+
 5.2. Invert for Q with a small inversin problem, use non-negative least square (invertsameQpQsnnls.m)
+
 5.3. Invert for Qp/Qs with a small inversion problem, use SVD (invertsameQps3D1Dsvd_vard.m)
 6. (Optional) Calculate Qk based on Qp/Qs (calQk_Qps.m)
 7. Plot tomography results (plot*.bash calling atten4gmt.py and hits4gmt.py)
