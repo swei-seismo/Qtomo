@@ -30,3 +30,6 @@ hitsP1D           Hit counts at Q1D.grid nodes
 raypaths.p        Raypaths of P waves, use pl_raypath.m to plot
 raypaths.bad      Raypaths of bad waves that are counted in nbigmis10
 
+Subdirectories (all files following the same format):
+checker   Checkerboard test shown in Figs. 7a and 7b of Wei & Wiens (2018, EPSL)
+synmod    Synthetic test shown in Figs. 7c and 7d of Wei & Wiens (2018, EPSL)
